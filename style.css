@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#container{
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#tab, #draw{
+    width: 200px;
+    margin: auto;
+}
+
+#tab td, #draw td{
+    width: 40px;
+    height: 40px;
+}
+#tab, #tab td, #draw, #draw td {
+ border: 1px solid black;
+ text-align: center;
+ border-collapse: collapse;
+}
+
+#tab input:checked + label{
+    font-weight :bold;
+    background-color: yellow
+}
+
+#tab input{
+ display: none;
+}
+
+#tab label {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+
+}
+
+#tab label:hover{
+    cursor: pointer;
+}
+
+#button{
+    padding: 12px 30px;
+    font-size: 18px;
+    background: rgb(6, 87, 32);;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#button:hover {
+    background: #02361b;
+    transform: scale(1.05);
+}
+
+.match {
+    background-color: green;
+}
+
+.mismatch {
+    background-color: red;
+}
+
+
+
