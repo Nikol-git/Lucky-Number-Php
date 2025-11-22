@@ -40,5 +40,4 @@ Because the project uses PHP, you need a local server such as **XAMPP**.
 4. Open your browser and visit:
 http://localhost/your-folder-name/
 
-
 - 
