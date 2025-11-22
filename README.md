@@ -1,10 +1,11 @@
-£ Number Selection & Random Draw Game
+## Number Selection & Random Draw Game
 
 This project is a simple web-based number selection game built using **HTML**, **CSS**, and **PHP**.  
 The user selects **5 numbers** from a grid of 1–20, and the server generates **5 unique random numbers**.  
 A results table highlights which numbers the user guessed correctly.
 
-<img width="1914" height="861" alt="Screenshot 2025-11-22 023427" src="https://github.com/user-attachments/assets/29100af7-49cc-4c94-a550-e0fc57c2d0d1" />
+
+<img width="1917" height="860" alt="Screenshot 2025-11-22 023512" src="https://github.com/user-attachments/assets/4bf2c7de-1442-449c-af17-d798fa65a429" />
 
 
 
